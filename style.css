@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.inputs{
+
+    justify-content: space-between;
+}
+.ai{
+    display: flex;
+}
+p{
+    padding: 10px 0px;
+}
+#Amount{
+    margin-left: 10px;
+    border: none;
+}
+.inputs input,
+.inputs select
+ {
+    height: 20px;
+    margin: 10px 0 10px;
+    display: block;
+    width: 90%;
+}
+#Select_cat{
+    height: 25px;
+}
+#notify{
+    margin-top: 0;
+    margin-bottom: 40px;
+    visibility: hidden;
+    color: red;
+}
+#Add_Expense
+{
+    width: 90%;
+    height: 20px;
+    background-color: lightgreen;
+    border: none;
+    margin-bottom: 5px;
+}
+#E_S{
+    visibility: hidden;
+}
+#ES{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 90%;
+    
+}
+th,td{
+    border: 1px solid black;
+}
+th{
+    background-color: lightgreen;
+    
+}
